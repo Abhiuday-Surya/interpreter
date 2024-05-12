@@ -1,4 +1,4 @@
-package com.craftinginterpreters.lox;
+package ganja;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.List;
 //import java.util.Scanner;
 
-public class Lox {
+public class ganja {
   static boolean hadError = false;
 
   public static void main(String[] args) throws IOException {

@@ -1,4 +1,4 @@
-package com.craftinginterpreters.lox;
+package ganja;
 
 enum TokenType {
     // Single-character tokens.

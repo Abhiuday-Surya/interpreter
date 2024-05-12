@@ -1,11 +1,11 @@
-package com.craftinginterpreters.lox;
+package ganja;
+
+import static ganja.TokenType.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static com.craftinginterpreters.lox.TokenType.*;
 
 class Scanner {
 
@@ -129,7 +129,7 @@ class Scanner {
                 } else if (isAlpha(c)) {
                     identifier();
                 } else {
-                    Lox.error(line, "Unexpected character.");
+                    ganja.error(line, "Unexpected character.");
                 }
         }
     }
@@ -169,7 +169,7 @@ class Scanner {
         }
 
         if (isAtEnd()) {
-            Lox.error(line, "Unterminated string.");
+            ganja.error(line, "Unterminated string.");
             return;
         }
 
