@@ -1,4 +1,4 @@
-package ganja;
+package ganjaLang;
 
 enum TokenType {
     // Single-character tokens.

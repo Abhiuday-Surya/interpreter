@@ -1,6 +1,6 @@
-package ganja;
+package ganjaLang;
 
-import static ganja.TokenType.*;
+import static ganjaLang.TokenType.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package ganja;
+package ganjaLang;
 
 class Token {
     final TokenType type;
